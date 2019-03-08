@@ -1,0 +1,227 @@
+.App {
+  text-align: center;
+}
+
+img{
+  margin-bottom: 30px; 
+  margin-top: 30px;      
+  width: 100%;
+  height: 80%;
+        
+}
+
+p{
+  margin-left: 40px;
+}
+
+.App-title{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+}
+
+.App-header {
+  background-color: #227c40;
+  height: 90px;
+  width: 100%;
+  padding: 30px;
+  color: white;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.active-recipe_button {
+  font-weight: 600;
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+.blue {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.blue:hover {
+  background-color: #6FC6FF;
+}
+
+.active-recipe_title {
+  letter-spacing: 2px;
+  margin: 1rem 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.foodFacts-h1{
+  font-weight: 900;
+  margin-left: 1rem;
+  padding-top: .5rem;
+  font-size: 2.5rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.form_input {
+  background: transparent;
+  border: solid 2px #227c40;
+  border-bottom: solid 1px #227c40;
+  margin-left: 20px;
+  letter-spacing: 2px;
+  width: 10%;
+  padding: 0.4rem;
+}
+
+.form_button {
+  border: solid 2px #227c40;
+  background: #2c3e50;
+  padding: 0.2rem 0.9rem;
+  margin: 0 0.2rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 0.7rem;
+}
+
+input[type="text"] { 
+  outline: none;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #f3f3f3 inset;
+  -webkit-text-fill-color: #2c3e50 !important;
+}
+
+
+.recipe_box {
+  background: #fff;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: -1px 2px 34px -13px rgba(0,0,0,1);
+  text-align: left;
+  overflow: hidden;
+}
+
+.recipe_text {
+  margin-left: 15px;
+}
+
+.recipe_title {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding: 0.4rem 0 0.2rem 0;
+}
+
+.recipe_subtitle {
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+
+.recipe_button {
+  font-weight: 600;
+  color: white;
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.active-recipe {
+  margin: 0 auto;
+  width: 60%;
+}
+
+hr {
+  display: block;
+  border: 5px;
+  border-top: 3px solid black;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+#hr2 {
+  display: block;
+  border-top: 20px solid black;
+  margin-left: .4rem;
+  margin-right: .4rem;
+}
+
+.recipeLabel{
+  border: 5px solid black;
+}
+
+.active-recipe_img {
+  height: 500px !important;
+  width: 100%;
+}
+
+.active-recipe_title {
+  letter-spacing: 2px;
+  margin: .3rem 0;
+}
+
+#foodTitle{
+  text-transform: capitalize;
+  font-weight: 900;
+  padding-top: 0;
+  color: #9e1a1a;
+  font-size: 2rem;
+}
+
+#servings{
+  padding: 0;
+  margin: 0;
+  margin-left: 1rem;
+}
+
+#servingSize {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 1rem;
+}
+
+#calories{
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 0;
+  padding-left: 1rem;
+}
+
+#smallSub{
+  padding-left: 1rem;
+  font-size: 1rem;
+  
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
